@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
@@ -49,85 +52,83 @@
 
     </header>
     <main>
-        <h2 class="club-name">Câu lạc bộ bóng đá</h2>
-        <div class="club-hero">
-            <img src="images/soccer.jpg" alt="Phu Luong High School Stadium" class="club-img">
-            <div class="club-info">
-                <p class="info-title">Thông tin CLB</p>
-                <div class="info-wrapper">
-                    <p class="info-subtitle">Thành viên</p>
-                    <div class="member-grid">
-                        <div class="grade">
-                            <p class="member-count">231</p>
-                            <p class="grade-name">Khối 10</p>
-                        </div>
-                        <div class="grade">
-                            <p class="member-count">265</p>
-                            <p class="grade-name">Khối 11</p>
-                        </div>
-                        <div class="grade">
-                            <p class="member-count">307</p>
-                            <p class="grade-name">Khối 12</p>
-                        </div>
-                    </div>
+        <section>
+            <h2 class="club-name">Câu lạc bộ bóng đá</h2>
+            <div class="club-hero"> 
+                <img src="images/soccer.jpg" alt="Phu Luong High School Stadium" class="club-img">
+                <div class="club-info">
+                    <p class="info-title">Thông tin CLB
+                        <p id="infosub">CLB Bóng đá</p>
+                    </p>
+                    <div class="info-wrapper">
 
-                    <p class="info-subtitle">Quản lý CLB</p>
-                    <div class="manager">
-                        <div class="manager-info">
-                            <img src="images/soccer-manager.jpg" alt="Sir Alex" class="manager-img">
-                            <p class="manager-name">Alex Ferguson</p>
+                        
+                        <div class="manager">
+                            <div class="manager-info">
+                                <img src="images/soccer-manager.jpg" alt="Sir Alex" class="manager-img">
+                                
+                            </div>
+                            <div id="info">
+                                <p class="manager-name">Alex Ferguson</p>
+                                <p class="info-subtitle">Quản lý CLB</p>
+                                <button>Liên hệ</button>
+                            </div>
                         </div>
-                        <button>Liên hệ</button>
-                    </div>
 
-                    <p class="info-subtitle">Chủ tịch CLB</p>
-                    <div class="captain">
-                        <div class="captain-info">
-                            <img src="images/soccer-captain.jpg" alt="" class="captain-img">
-                            <p class="captain-name">Cristiano Ronaldo</p>
+                        
+                        <div class="captain">
+                            <div class="captain-info">
+                                <img src="images/soccer-captain.jpg" alt="" class="captain-img">
+                            </div>
+                            <div id="info">
+                                <p class="captain-name">Cristiano Ronaldo</p>
+                                <p class="info-subtitle">Chủ tịch CLB</p>
+                                <button>Liên hệ</button>
+                            </div>
+                            
                         </div>
-                        <button>Liên hệ</button>
+                        <div class="member-grid">
+                            <div class="grade">
+                                <p class="member-count">739</p>
+                                <p class="grade-name">Thành viên</p>
+                            </div>
+                            <div class="grade">
+                                <p class="member-count">52</p>
+                                <p class="grade-name">Giải đã tham gia</p>
+                            </div>
+                            <div class="grade">
+                                <p class="member-count">33</p>
+                                <p class="grade-name">Lần vô địch</p>
+                            </div>
+                        </div>
                     </div>
+                    <button class="request-btn">
+                        Yêu cầu tham gia
+                        <p>Điền đơn đăng kí và đợi xét duyệt</p>
+                    </button>
                 </div>
-                <button class="request-btn">Yêu cầu tham gia</button>
             </div>
-        </div>
-        <div class="club-description">
-            <div class="description">
-                <i class="fa-regular fa-clock">  13/2/2010</i>
-                <p class="description-title">Thành lập</p>
-                <p class="club-description-content"></p>
+            <div class="club-description">
+                <div class="description">
+                    <i class="fa-regular fa-clock">  13/2/2010</i>
+                    <p class="description-title">Thành lập</p>
+                    <p class="club-description-content"></p>
+                </div>
+                <div class="description">
+                    <i class="fa-regular fa-calendar">  2</i>
+                    <p class="description-title">Sự kiện</p>
+                    <p class="club-description-content"></p>
+                </div>
+                <div class="description">
+                    <i class="fa-solid fa-star">  4.7</i>
+                    <p class="description-title">Đánh giá</p>
+                </div>
             </div>
-            <div class="description">
-                <i class="fa-regular fa-calendar">  2</i>
-                <p class="description-title">Số sự kiện trong tháng</p>
-                <p class="club-description-content"></p>
-            </div>
-            <div class="description">
-                <i class="fa-solid fa-star">  4.7</i>
-                <p class="description-title">Đánh giá</p>
-            </div>
-        </div>
+        </section>
+        <!-- VOLLEYBALL -->
+        <section style="height: 100vh;">
+
+        </section>
     </main>
-    <footer>
-        <div class="related-club-wrapper">
-            <div class="related-club">
-                <p>CLB Bóng Chuyền</p>
-                <img src="" alt="">
-            </div>
-            <div class="related-club">
-                <p>CLB Bóng Rổ</p>
-                <img src="" alt="">
-            </div>
-            <div class="related-club">
-                <p>CLB Cầu Lông </p>
-                <img src="" alt="">
-            </div>
-            <div class="related-club">
-                <p>CLB Điền kinh</p>
-                <img src="" alt="">
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
